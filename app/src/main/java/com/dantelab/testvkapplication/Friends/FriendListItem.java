@@ -25,13 +25,19 @@ public class FriendListItem extends RecyclerView.ViewHolder {
     @Bind(R.id.statusTextView)
     TextView statusTextView;
 
+    private StringBuilder mStringBuilder = new StringBuilder();
+
     public FriendListItem(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
     }
 
     public void bindFriend(VKApiUserFull friend, Context context) {
-        nameTextView.setText(String.format("%s %s", friend.first_name, friend.last_name));
+        mStringBuilder.setLength(0);
+        mStringBuilder.append(friend.first_name);
+        mStringBuilder.append(" ");
+        mStringBuilder.append(friend.last_name);
+        nameTextView.setText(mStringBuilder);
         statusTextView.setText(friend.online ? context.getString(R.string.status_online) : context.getString(R.string.status_offline));
         Picasso.with(context).load(friend.photo_100).into(avatarImage);
     }
