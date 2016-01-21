@@ -3,4 +3,10 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="chat_message_offset_outcome">96dp</dimen>
+    <dimen name="chat_message_offset_income">96dp</dimen>
+    <dimen name="chat_message_offset_regular">16dp</dimen>
+    <dimen name="chat_message_offset_top">2dp</dimen>
+    <dimen name="chat_message_offset_bottom">4dp</dimen>
 </resources>

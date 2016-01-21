@@ -21,14 +21,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Auth.AuthActivity"
+            android:name=".auth.AuthActivity"
             android:label="@string/title_activity_auth"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-
             android:name=".MainActivity"
             android:label="@string/title_activity_friend_list"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

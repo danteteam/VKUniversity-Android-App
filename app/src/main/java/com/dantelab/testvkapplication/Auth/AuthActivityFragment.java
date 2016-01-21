@@ -1,4 +1,4 @@
-package com.dantelab.testvkapplication.Auth;
+package com.dantelab.testvkapplication.auth;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -65,7 +65,7 @@ public class AuthActivityFragment extends Fragment implements VKCallback<VKAcces
     @OnClick(R.id.my_login_button)
     public void tryLogin(View view){
         if (getActivity() != null) {
-            VKSdk.login(this.getActivity());
+            VKSdk.login(this.getActivity(), "friends", "messages", "offline");
         }
     }
 

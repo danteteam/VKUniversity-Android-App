@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment">Message attachment</string>
+    <string name="message_text_view_hint">Write message</string>
+    <string name="action_send">Send</string>
+</resources>

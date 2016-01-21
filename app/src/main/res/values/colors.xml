@@ -7,4 +7,7 @@
     <color name="colorPrimaryDark">#1557a3</color>
     <color name="colorUserFullNameLight">#2e3033</color>
     <color name="colorUserStatusLight">#909499</color>
+
+    <color name="color_message_outcome">#D9E6F6</color>
+    <color name="color_message_income">#E7EAF1</color>
 </resources>

@@ -6,7 +6,7 @@ import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.dantelab.testvkapplication.Auth.AuthActivity;
+import com.dantelab.testvkapplication.auth.AuthActivity;
 import com.vk.sdk.VKSdk;
 
 public class SplashScreenActivity extends AppCompatActivity {
